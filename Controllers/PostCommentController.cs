@@ -39,7 +39,7 @@ public class PostCommentController: ControllerBase
 
 
     [HttpPost]
-    public async Task<ActionResult<PostComment>> Post(string blogPostId, [FromBody] PostCommentDTO postCommentDTO)
+    public async Task<ActionResult<PostComment>> Post( string blogPostId, [FromBody] PostCommentDTO postCommentDTO)
     {
 
         try {
